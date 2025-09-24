@@ -37,4 +37,4 @@ Software Engineering graduate student at St. Mary's University. Currently workin
 - Databases: Microsoft SQL Server, SQLite
 
 ## Contact
-[LinkedIn](https://www.linkedin.com/in/ben-ebadinia/) | [Email](mailto:bebadinia@yahoo.com)
+[LinkedIn](https://www.linkedin.com/in/ben-ebadinia/) | [Email](mailto:ben@ebadinia.net)
