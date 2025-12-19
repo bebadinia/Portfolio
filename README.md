@@ -48,12 +48,13 @@ Side-scrolling educational game introducing coding concepts through interactive 
 ---
 
 ## Skills
-**Languages:** C, C++, C#, CSS, GML, HTML, Java, JavaScript, Python, SQL
-**Tools:** Anaconda, Dev-C++, Eclipse, Gamemaker Studio 2, Git/GitHub, Glitch.com, IntelliJ IDEA, JavaFX, 
-Jira, Jupyter Notebook, .NET, Node.js, React Native, Spyder, Unity, Visual Studio, VS Code
-**Databases:** Microsoft SQL Server, SQLite
-**Cloud:** AWS, Microsoft Azure  
-**Methods:** Agile, Kanban, Scrum, Software Development Life Cycle (SDLC), Traditional Waterfall
+- **Languages:** _C, C++, C#, CSS, GML, HTML, Java, JavaScript, Python, SQL_
+- **Tools:** _Anaconda, Dev-C++, Eclipse, Gamemaker Studio 2, Git/GitHub, Glitch.com, IntelliJ IDEA, JavaFX,  Jira, Jupyter Notebook, .NET, Node.js, React Native, Spyder, Unity, Visual Studio, VS Code_
+- **Databases:** _Microsoft SQL Server, SQLite_
+- **Cloud:** _AWS, Microsoft Azure _ 
+- **Methods:** _Agile, Kanban, Scrum, Software Development Life Cycle (SDLC), Traditional Waterfall_
+
+---
 
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/ben-ebadinia/) | [Email](mailto:ben@ebadinia.net)
