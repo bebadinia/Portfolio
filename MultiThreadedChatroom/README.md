@@ -1,4 +1,4 @@
-# Multi-threaded Chatroom (Python / Tkinter)
+# Multi-threaded Chat Room (Python / Tkinter)
 
 This project implements a simple chat room server and GUI client application using Python. It consists of a server program (`ChatroomServer.py`) and a client program (`ChatroomClient.py`) with a graphical user interface (GUI) using TKinter. The application was coded in Anaconda Spyder and is run on command prompt or terminal.
 
