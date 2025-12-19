@@ -28,7 +28,7 @@ Web-based chatroom secured with **AES-encrypted messaging** and **RFID/NFC tag�
 
 ### 🔹 Multi-threaded Chat Room — Server + GUI Client (Python / Tkinter)
 Multi-client chatroom with a **multi-threaded server** and **Tkinter GUI client** for parallel/asynchronous communication.
-- **Project Folder:** [BasicChatroom]'(./BasicChatroom)'
+- **Project Folder:** [Multi-threaded Chat Room]'(./MultiThreadedChatroom)'
 - **Highlights:** _multi-threading, TCP sockets, GUI client, CLI configuration_
 
 ---
