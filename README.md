@@ -51,7 +51,7 @@ Side-scrolling educational game introducing coding concepts through interactive 
 - **Languages:** _C, C++, C#, CSS, GML, HTML, Java, JavaScript, Python, SQL_
 - **Tools:** _Anaconda, Dev-C++, Eclipse, Gamemaker Studio 2, Git/GitHub, Glitch.com, IntelliJ IDEA, JavaFX,  Jira, Jupyter Notebook, .NET, Node.js, React Native, Spyder, Unity, Visual Studio, VS Code_
 - **Databases:** _Microsoft SQL Server, SQLite_
-- **Cloud:** _AWS, Microsoft Azure _ 
+- **Cloud:** _AWS, Microsoft Azure_ 
 - **Methods:** _Agile, Kanban, Scrum, Software Development Life Cycle (SDLC), Traditional Waterfall_
 
 ---
