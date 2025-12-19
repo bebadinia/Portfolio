@@ -1,4 +1,4 @@
-# Basic Chatroom
+# Multi-threaded Chatroom (Python / Tkinter)
 
 This project implements a simple chat room server and GUI client application using Python. It consists of a server program (`ChatroomServer.py`) and a client program (`ChatroomClient.py`) with a graphical user interface (GUI) using TKinter. The application was coded in Anaconda Spyder and is run on command prompt or terminal.
 
@@ -8,10 +8,14 @@ This project implements a simple chat room server and GUI client application usi
 - Color-coded message types
 - Command-line configuration
 
+---
+
 ## Requirements
 - Python 3.x
 - Tkinter (usually included with Python)
 - Comamand Prompt/Terminal
+
+---
 
 ## Setup and Running
 1. Download the source code files
@@ -51,6 +55,17 @@ This project implements a simple chat room server and GUI client application usi
 + Messages received from other clients will be displayed in the chat window with their respective usernames (Green Text).
 + Join and leave messages will be displayed in the chat window when clients join or leave the chat room (Blue Text for Join) (Red Text for Leave).
 
+---
+
 ## Troubleshooting
 + If the client fails to connect to the server, ensure that the server is running and the specified IP address and port number are correct.
 + If messages are not being sent or received, check the server and client console output for any error messages.
+
+---
+
+## Demo / Screenshots
+- **Client UI:** 
+  ![Chatroom client screenshot](docs/screenshots/SampleScreenShot.png)
+
+- **Message Flow Diagram:**  
+  ![Message flow diagram](docs/architecture/message-flow-diagram.png)
