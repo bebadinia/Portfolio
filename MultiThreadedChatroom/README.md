@@ -17,6 +17,19 @@ This project implements a simple chat room server and GUI client application usi
 
 ---
 
+## Project Layout
+
+MultiThreadedChatroom/
+- `src/`
+	- `ChatroomServer.py`
+	- `ChatroomClient.py`
+- `docs/`
+  - `architecture/` (Message Flow Diagram)
+  - `screenshots/` (UI screenshots)
+  - `assignment/`
+
+---
+
 ## Setup and Running
 1. Download the source code files
 2. Run the Server (Details in "Running the Server" down below)
