@@ -1,40 +1,59 @@
-# Ben Ebadinia's Portfolio
+# Ben Ebadinia — Project Portfolio
+A curated portfolio of projects in software engineering, systems, and applied security.
+> Each project lives in its own folder with a dedicated README (setup, screenshots, and technical details).
 
-## About Me
-Software Engineering graduate student at St. Mary's University. Currently working on Augmented Reality research.
 
 ## Featured Projects
 
-### What's It Worth? (C#/.NET/SQL)
-- Jewelry valuation desktop application with real-time pricing
-- Integrates IDEX API for diamond pricing and Kitco API for metals
-- SQLite backend for inventory and account management
+### 🔹 Systems Simulation — Mixed Reality Framework (C# / .NET / StereoKit / HoloLens 2)
+Mixed reality framework + anatomy prototype built for interactive 3D learning in healthcare. 
+- **Project Folder:** TODO (link to folder)
+- **Highlights:** _MR interaction design, 3D model manipulation, reusable architecture, HoloLens deployment_
 
-### RFID Chat Room (JavaScript/HTML/CSS/SQL)
-- Enter chatroom using the RFID tag as a username credential
-- Provide an encrypted messaging system hosted on a public server with a 3-Step verification process
-- Allowing credentialed users to securely communicate on an end-to-end basis using AES encryption
+---
 
-### Multi-threaded Chat Room (Python)
-- Server supporting parallel client communications
-- TKinter-based GUI interface
-- Command-line deployment options
+### 🔹 What's It Worth? — Jewelry Valuation Desktop App (C# / .NET / SQL)
+Desktop application for jewelry pricing and inventory tracking with real-time market data integration.
+- **Project Folder:** TODO
+- **Highlights:** _API integration, database design, desktop UI, real-time pricing pipeline_
 
-### Alan's Coding Journey (GML)
-- Educational side-scrolling desktop application designed to introduce young adults to coding concepts through an interactive adventure
-- Multi-level progression with multiple encounters in each level depending on the depth of content for each section
-- Side-Scrolling character movement with platformer jumping mechanics
-- Interactive coding challenges with immediate feedback
+---
 
-### Java++ Programming Language (C++/Java)
-- Custom programming language combining C++ and Java features
-- Complete compiler implementation
-- Documentation and language reference manual
+### 🔹 RFID Chat Room — Encrypted Web Chatroom (HTML / CSS / JavaScript / Node.js / AES-256 / RFID / NFC)
+Web-based chatroom secured with **AES-encrypted messaging** and **RFID/NFC tag–based access control** (scan tag → credentialed login).
+- **Project Folder:** TODO (e.g., `./RFIDChatroom` or external repo link)
+- **Highlights:** _web sockets / real-time messaging, encryption, access control workflow_
+
+---
+
+### 🔹 Multi-threaded Chat Room — Server + GUI Client (Python / Tkinter)
+Multi-client chatroom with a **multi-threaded server** and **Tkinter GUI client** for parallel/asynchronous communication.
+- **Project Folder:** [BasicChatroom]'(./BasicChatroom)'
+- **Highlights:** _multi-threading, TCP sockets, GUI client, CLI configuration_
+
+---
+
+### 🔹 Java++ — Custom Programming Language + Compiler (C / C++ / Java)
+Designed a custom language and implemented a complete compiler pipeline with documentation.
+- **Project Folder:** TODO
+- **Highlights:** _compiler design, parsing, language spec, tooling_
+
+---
+
+### 🔹 Alan’s Coding Journey — Educational Game (GameMaker Studio 2 / GML)
+Side-scrolling educational game introducing coding concepts through interactive levels and challenges.
+- **Project Folder:** TODO
+- **Highlights:** _game loop, progression design, storyboarding, interactive learning mechanics_
+
+---
 
 ## Skills
-- Languages: C, C++, C#, Java, Python, JavaScript, SQL, GML
-- Tools: .NET, Visual Studio 2020, VS Code, Node.js, Git, GameMaker Studio 2, Glitch.com
-- Databases: Microsoft SQL Server, SQLite
+**Languages:** C, C++, C#, CSS, GML, HTML, Java, JavaScript, Python, SQL
+**Tools:** Anaconda, Dev-C++, Eclipse, Gamemaker Studio 2, Git/GitHub, Glitch.com, IntelliJ IDEA, JavaFX, 
+Jira, Jupyter Notebook, .NET, Node.js, React Native, Spyder, Unity, Visual Studio, VS Code
+**Databases:** Microsoft SQL Server, SQLite
+**Cloud:** AWS, Microsoft Azure  
+**Methods:** Agile, Kanban, Scrum, Software Development Life Cycle (SDLC), Traditional Waterfall
 
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/ben-ebadinia/) | [Email](mailto:ben@ebadinia.net)
