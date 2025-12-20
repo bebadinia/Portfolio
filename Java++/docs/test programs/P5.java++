@@ -1,0 +1,44 @@
+**--------------------------------------------------------------
+** Ben Ebadinia
+** Program #5
+** P5.java++
+**--------------------------------------------------------------
+
+START
+	
+   VARIABLE NUM x1 << 52; BOOLEAN x3 << TRUE.
+   FINAL NUM x2 << 10; BOOLEAN x5 << FALSE.
+
+***----------------------
+    Basic Variables 
+   ----------------------;**
+   coutln(" Integer x1  = "; x1).
+** Trying to change final
+** x2 << 2
+   coutln(" Integer Final x2 = "; x2).
+   coutln(" Boolean x3 = "; x3).
+
+***----------------------
+     User Input 
+   ----------------------;**
+   VARIABLE NUM user1; NUM user2.
+   STDIN " user1: "; user1.
+   STDIN " user2: "; user2.
+   coutln(" user1 + user2 + x2  = "; user1 + user2 + x2).
+
+***----------------------
+     INCREMENT/DECREMENT    
+   ----------------------;**
+   coutln(" x1 = "; x1; ", ++x1 = "; ++x1).
+   coutln(" user1 = "; user1; ", --user1 = "; --user1).
+
+***----------------------
+     BOOLEAN    
+   ----------------------;**  
+   VARIABLE BOOLEAN user3; BOOLEAN x4.
+   STDIN " user3: "; user3.
+   x4 << NOT[user3] OR [x3 XOR x5].
+   coutln (" user3 = "; user3; ", x4 = "; x4).
+
+FIN
+

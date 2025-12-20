@@ -35,7 +35,7 @@ Multi-client chatroom with a **multi-threaded server** and **Tkinter GUI client*
 
 ### 🔹 Java++ — Custom Programming Language + Compiler (C / C++ / Java)
 Designed a custom language and implemented a complete compiler pipeline with documentation.
-- **Project Folder:** TODO
+- **Project Folder:** [Java++](./Java++/)
 - **Highlights:** _compiler design, parsing, language spec, tooling_
 
 ---

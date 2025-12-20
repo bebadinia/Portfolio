@@ -1,0 +1,61 @@
+**--------------------------------------------------------------
+** Ben Ebadinia
+** Program #7
+** P7.java++
+**--------------------------------------------------------------
+START
+   VARIABLE NUM x; NUM y.
+
+   STDIN "x? "; x.
+   STDIN "y? "; y.
+
+   IF [ x < y ]
+   {
+      coutln(" x < y").
+   }
+
+   IF [ x != y ]
+   {
+      coutln(" x != y").
+   }
+
+   IF [ x < y ]
+   {
+      coutln(" x < y").
+   OTHERWISE
+      coutln(" x >= y").
+   }
+
+   IF [ x < y ]
+   {   
+      coutln(" x < y").
+   OTHERWISEIF [ x == y ] EXECUTE
+      coutln(" x == y").
+   OTHERWISEIF [ x > y ] EXECUTE
+      coutln(" x > y").
+   }
+
+   IF [ x < y ]
+   {
+      coutln(" x < y").
+   OTHERWISEIF [ x == y ] EXECUTE
+      coutln(" x == y").
+   OTHERWISEIF [ x > y ] EXECUTE
+      coutln(" x > y").
+   OTHERWISE
+      coutln("***ERROR***").
+   }
+
+   IF [ x == y ]
+   {
+      coutln(" x == y").
+   OTHERWISE
+      IF [ x > y ]
+      {
+         coutln(" x > y").
+      OTHERWISE
+         coutln(" x < y").
+      }
+   }
+
+FIN

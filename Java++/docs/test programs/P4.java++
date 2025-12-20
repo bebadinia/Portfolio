@@ -1,0 +1,56 @@
+**--------------------------------------------------------------
+** Ben Ebadinia
+** Program #4
+** P4.java++
+**--------------------------------------------------------------
+
+START
+	
+***----------------------
+    Arithmetic operators 
+   ----------------------;**
+   coutln(" 1  = " ; 1).
+   coutln(" +2 = " ; +2).
+   coutln(" -3 = " ; -3).
+   coutln(" ABSOLUTE 2    = " ; ABSOLUTE 2).
+   coutln(" ABSOLUTE [-3] = " ; ABSOLUTE[-3]).
+   coutln(" 4+5 = " ; 4+5).
+   coutln(" 5-4 = " ; 5-4).
+   coutln(" 6*7 = " ; 6*7).
+   coutln(" 7/4 = " ; 7/4).
+   coutln(" 7%4 = " ; 7%4).
+   coutln(" 2^3     = " ; 2^3).
+   coutln(" 2^[3^2] = " ; 2^[3^2]).
+   coutln(" [2^3]^2 = " ; [2^3]^2).
+
+***----------------------
+    Comparison operators 
+   ----------------------;**
+   coutln(" 1<2    = " ; 1<2).
+   coutln(" 1==2   = " ; 1==2).
+   coutln(" 1<=2   = " ; 1<=2).
+   coutln(" 1>2    = " ; 1>2).
+   coutln(" 1!=2   = " ; 1!=2).
+   coutln(" [1!=2] = " ; [1!=2]).
+   coutln(" 1>=2   = " ; 1>=2).
+
+***----------------------
+     Logical operators    
+   ----------------------;**
+   coutln(" TRUE OR TRUE    = " ; TRUE OR TRUE).
+   coutln(" TRUE OR FALSE   = " ; TRUE OR FALSE).
+   coutln(" FALSE NOR TRUE  = " ; FALSE NOR TRUE).
+   coutln(" FALSE NOR FALSE = " ; FALSE NOR FALSE).
+   coutln(" TRUE XOR TRUE   = " ; TRUE XOR TRUE).
+   coutln(" FALSE XOR FALSE = " ; FALSE XOR FALSE).
+
+   coutln(" TRUE AND TRUE    = " ; TRUE AND TRUE).
+   coutln(" TRUE AND FALSE   = " ; TRUE AND FALSE).
+   coutln(" FALSE NAND TRUE  = " ; FALSE NAND TRUE).
+   coutln(" FALSE NAND FALSE = " ; FALSE NAND FALSE).
+
+   coutln(" NOT FALSE = " ; NOT FALSE).
+   coutln(" NOT TRUE  = " ; NOT TRUE).
+
+FIN
+

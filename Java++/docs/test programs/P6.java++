@@ -1,0 +1,24 @@
+**--------------------------------------------------------------
+** Ben Ebadinia
+** Program #6
+** P6.java++
+**--------------------------------------------------------------
+
+START
+   VARIABLE NUM x; NUM y.
+
+   REPEAT
+      STDIN "x? "; x.
+   WHILE [ x != 0 ]
+   {
+      STDIN "y? "; y.
+      IF [ x < y ]
+      {   
+         coutln(" x < y").
+      OTHERWISEIF [ x == y ] EXECUTE
+         coutln(" x == y").
+      OTHERWISEIF [ x > y ] EXECUTE
+         coutln(" x > y").
+      }
+   }
+FIN
