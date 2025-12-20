@@ -18,16 +18,16 @@ This project implements *Java++*, a small teaching language inspired by C++ & Ja
 
 ## Project Layout
 Java++/
+- `docs/`
+  - `assignments/`
+  - `documentation/`
+  - `test programs/`
 - `src/`
 	- `Java++Compiler.cpp`
 	- `Java++Compiler.exe`
 	- `STM.c`
 	- `STM.exe`
 	- `java++.h`
-- `docs/`
-  - `test programs/` (All `.java++` test programs)
-  - `references/` (Program Screenshots & Language Reference)
-  - `assignment/` (Assignmenets for all iterations of compiler)
 
 > **Important:** `Java++Compiler.cpp` includes `java++.h` using a relative path in the source.  
 > If your folder layout differs, either (1) move files to match the include path, or (2) update the `#include` line to point to your local `java++.h`.

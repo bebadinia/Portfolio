@@ -24,6 +24,9 @@ This project is a secure web-based chatroom application that uses RFID/NFC tagâ€
 
 ## Project Layout
 RFIDChatroom/
+- `docs/`
+  - `documentation/`
+  - `screenshots/` 
 - `src/`
   - `server.js`
   - `package.json`
@@ -33,13 +36,6 @@ RFIDChatroom/
     - `login.html`
     - `chat.html`
     - `images/`
-      - `Logo.png`
-      - `favicon2.ico`
-      - `favicon3.ico`
-- `docs/`
-  - `architecture/` (Domain Model Diagram, Use Case Diagram, etc.)
-  - `screenshots/` (UI screenshots)
-  - `assignment/` (Final report)
 
 > **Important:** `server.js` serves static files from `public/`, so `login.html` and `chat.html` must be inside that folder.
 
@@ -132,10 +128,10 @@ To make the chatroom available over the internet, deploy this project to any Nod
 
 ## Demo / Screenshots
 - **Login Screen:** 
-  ![Login UI](docs/screenshots/PrototypeScreen1.jpg)
+  ![Login Screen](docs/screenshots/ChatroomLoginScreen.jpg)
 
 - **Chatroom Screen:** 
-  ![Login UI](docs/screenshots/PrototypeScreen2.jpg)
+  ![Chatroom Screen](docs/screenshots/ActiveChatroomScreen.jpg)
 
 - **Domain Model Diagram:**  
-  ![Domain Model Diagram](docs/architecture/DomainModel.png)
+  ![Domain Model Diagram](docs/documentation/DomainModel.png)

@@ -40,9 +40,9 @@ Designed a custom language and implemented a complete compiler pipeline with doc
 
 ---
 
-### 🔹 Alan’s Coding Journey — Educational Game (GameMaker Studio 2 / GML)
+### 🔹 Alan’s Coding Journey — Educational Game (GameMaker Studio 2 / GML / C)
 Side-scrolling educational game introducing coding concepts through interactive levels and challenges.
-- **Project Folder:** TODO
+- **Project Folder:** [Alan’s Coding Journey](./AlansCodingJourney/)
 - **Highlights:** _game loop, progression design, storyboarding, interactive learning mechanics_
 
 ---

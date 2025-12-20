@@ -19,13 +19,13 @@ This project implements a simple chat room server and GUI client application usi
 ## Project Layout
 
 MultiThreadedChatroom/
+- `docs/`
+  - `assignments/`
+  - `documentation/`
+  - `screenshots/`
 - `src/`
   - `ChatroomServer.py`
   - `ChatroomClient.py`
-- `docs/`
-  - `architecture/` (Message Flow Diagram)
-  - `screenshots/` (UI screenshots)
-  - `assignment/`
 
 ---
 
@@ -83,4 +83,4 @@ MultiThreadedChatroom/
   ![Chatroom client screenshot](docs/screenshots/SampleScreenShot.png)
 
 - **Message Flow Diagram:**  
-  ![Message flow diagram](docs/architecture/message-flow-diagram.png)
+  ![Message flow diagram](docs/documentation/message-flow-diagram.png)
