@@ -2,6 +2,7 @@
 .vs/
 *.user
 *.suo
+**/MigrationBackup/
 
 # Build output
 **/bin/
