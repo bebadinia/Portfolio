@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0200D77-0767-4969-8751-27DBB783E961}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WhatsItWorth</RootNamespace>
+    <AssemblyName>WhatsItWorth</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDiamond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDiamond.Designer.cs">
+      <DependentUpon>AddDiamond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddedFunctions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddItemPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemPage.Designer.cs">
+      <DependentUpon>AddItemPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComparePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComparePage.Designer.cs">
+      <DependentUpon>ComparePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompleteUpdater.cs" />
+    <Compile Include="CreateAccountPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccountPage.Designer.cs">
+      <DependentUpon>CreateAccountPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAccountConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteAccountConfirmation.Designer.cs">
+      <DependentUpon>DeleteAccountConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteItemConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteItemConfirmation.Designer.cs">
+      <DependentUpon>DeleteItemConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditAccountConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAccountConfirmation.Designer.cs">
+      <DependentUpon>EditAccountConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt_Decrypt.cs" />
+    <Compile Include="GenerateReportPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateReportPage.Designer.cs">
+      <DependentUpon>GenerateReportPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputFormats.cs" />
+    <Compile Include="ItemPricing.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAccount.Designer.cs">
+      <DependentUpon>ViewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewItem.Designer.cs">
+      <DependentUpon>ViewItem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDiamond.resx">
+      <DependentUpon>AddDiamond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItemPage.resx">
+      <DependentUpon>AddItemPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparePage.resx">
+      <DependentUpon>ComparePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccountPage.resx">
+      <DependentUpon>CreateAccountPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAccountConfirmation.resx">
+      <DependentUpon>DeleteAccountConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteItemConfirmation.resx">
+      <DependentUpon>DeleteItemConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAccountConfirmation.resx">
+      <DependentUpon>EditAccountConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateReportPage.resx">
+      <DependentUpon>GenerateReportPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInPage.resx">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="LogInPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInPage.Designer.cs">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="Database\testDatabase.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ViewAccount.resx">
+      <DependentUpon>ViewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewItem.resx">
+      <DependentUpon>ViewItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\bebadinia.github.io\.git\COMMIT_EDITMSG" />
+    <None Include="Resources\bebadinia.github.io\.git\config" />
+    <None Include="Resources\bebadinia.github.io\.git\description" />
+    <None Include="Resources\bebadinia.github.io\.git\FETCH_HEAD" />
+    <None Include="Resources\bebadinia.github.io\.git\HEAD" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\applypatch-msg.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\commit-msg.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\post-update.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-applypatch.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-commit.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-merge-commit.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-push.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-rebase.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\pre-receive.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\push-to-checkout.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\sendemail-validate.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\hooks\update.sample" />
+    <None Include="Resources\bebadinia.github.io\.git\index" />
+    <None Include="Resources\bebadinia.github.io\.git\info\exclude" />
+    <None Include="Resources\bebadinia.github.io\.git\logs\HEAD" />
+    <None Include="Resources\bebadinia.github.io\.git\logs\refs\heads\main" />
+    <None Include="Resources\bebadinia.github.io\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="Resources\bebadinia.github.io\.git\logs\refs\remotes\origin\main" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\0a\5568b3eb72786b7d025f317905c26d9b2a59ce" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\1c\faa7c6332113369e698fde9500890303231cd9" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\20\7f30e1bd4d1f1f3dc3fb1c3f387331bc2208c7" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\22\a2a3f55db1343f24f9411665d64a12a2eb75b5" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\25\06f97f0032ffb48f0f35743a65589d7dcc8039" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\33\d81b302b38b5cd87fd43c7d6b4da519718f2c9" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\58\585c5fd0de3907a833076cc893f677156282f2" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\5f\2bd50165591a7d252715fb477dc82bad1ad49a" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\61\6985f0b12a891152b49af1ca37b46450490a8a" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\87\a7aa31f8f3d763133c8fdeec5cd23164924797" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\88\5c0d5bbe0f58a6a2238b46243b9632f2fe3149" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\91\548a02427adf27f8cd2f5e10992dc9c32beb3a" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\93\be30f3e566693ef1ab51994729a6863604499b" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\9d\ef38203cb4e620abce03aeccd1971a7e053950" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\d8\6a2f5ba8bc6a5d70488c4f2a2794f95a708226" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\dd\7d443ce0615b8cb93d45eaec4d32bb15d10be7" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\de\7744ae60d53ccad7cec29f885124221bbde86c" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\e6\e423948e47b23f72477702381b7e8ed6be8ab6" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\e8\5fc595c1b2defddad36205b020424d6b5c7a73" />
+    <None Include="Resources\bebadinia.github.io\.git\objects\f0\104094e3e71cd88795d9018f7112d342fe4ea5" />
+    <None Include="Resources\bebadinia.github.io\.git\refs\heads\main" />
+    <None Include="Resources\bebadinia.github.io\.git\refs\remotes\origin\HEAD" />
+    <None Include="Resources\bebadinia.github.io\.git\refs\remotes\origin\main" />
+    <EmbeddedResource Include="TotalReports.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\Key.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bebadinia.github.io\assets\images\diamondIcon.ico" />
+    <Content Include="Resources\bebadinia.github.io\assets\images\whats-it-worth-logo.png" />
+    <Content Include="Resources\bebadinia.github.io\index.html" />
+    <Content Include="Resources\Chain.jpg" />
+    <Content Include="Resources\CompareIcon.png" />
+    <Content Include="Resources\CreateAccountPhoto.png" />
+    <Content Include="Resources\ItemIcon.png" />
+    <Content Include="Resources\ItemIcon1.png" />
+    <Content Include="Resources\ItemIcon2.png" />
+    <Content Include="Resources\LoginInPhoto.png" />
+    <Content Include="Resources\ProfileIcon.png" />
+    <Content Include="Resources\ReportLogo.png" />
+    <Content Include="Resources\ResourcesIcon.png" />
+    <Content Include="Resources\SelectIcon.png" />
+    <Content Include="Resources\SelectIcon1.png" />
+    <Content Include="Resources\UnVisible.png" />
+    <Content Include="Resources\Visible.png" />
+    <Content Include="Resources\whats-it-worth-high-resolution-logo-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\bebadinia.github.io\.git\objects\info\" />
+    <Folder Include="Resources\bebadinia.github.io\.git\objects\pack\" />
+    <Folder Include="Resources\bebadinia.github.io\.git\refs\tags\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack">
+      <Version>1.12.4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Reporting.WinForms.v11">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="RestSharp">
+      <Version>113.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite.Core">
+      <Version>1.0.119</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

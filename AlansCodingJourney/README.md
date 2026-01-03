@@ -38,7 +38,6 @@ This project implements *Alan’s Coding Journey*, a single-player educational s
 ## Project Layout
 AlansCodingJourney/
 - `docs/`
-- `docs/`
   - `documentation/`
   - `screenshots/`
 - `src/`

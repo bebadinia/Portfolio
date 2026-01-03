@@ -12,23 +12,23 @@ Mixed reality framework + anatomy prototype built for interactive 3D learning in
 
 ---
 
-### 🔹 What's It Worth? — Jewelry Valuation Desktop App (C# / .NET / SQL)
+### 🔹 What's It Worth? — Jewelry Valuation Desktop App (C# / WinForms / .NET / SQL)
 Desktop application for jewelry pricing and inventory tracking with real-time market data integration.
-- **Project Folder:** TODO
+- **Project Folder:** [What's It Worth?](./WhatsItWorth/)
 - **Highlights:** _API integration, database design, desktop UI, real-time pricing pipeline_
 
 ---
 
 ### 🔹 RFID Chat Room — Encrypted Web Chatroom (HTML / CSS / JavaScript / Node.js / AES-256 / RFID / NFC)
 Web-based chatroom secured with **AES-encrypted messaging** and **RFID/NFC tag–based access control** (scan tag → credentialed login).
-- **Project Folder:** [RFID Chat Room](./RFIDChatroom)
+- **Project Folder:** [RFID Chat Room](./RFIDChatroom/)
 - **Highlights:** _web sockets / real-time messaging, encryption, access control workflow_
 
 ---
 
 ### 🔹 Multi-threaded Chat Room — Server + GUI Client (Python / Tkinter)
 Multi-client chatroom with a **multi-threaded server** and **Tkinter GUI client** for parallel/asynchronous communication.
-- **Project Folder:** [Multi-threaded Chat Room](./MultiThreadedChatroom)
+- **Project Folder:** [Multi-threaded Chat Room](./MultiThreadedChatroom/)
 - **Highlights:** _multi-threading, TCP sockets, GUI client, CLI configuration_
 
 ---
