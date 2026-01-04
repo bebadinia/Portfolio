@@ -7,7 +7,7 @@ A curated portfolio of projects in software engineering, systems, and applied se
 
 ### 🔹 Systems Simulation — Mixed Reality Framework (C# / .NET / StereoKit / HoloLens 2)
 Mixed reality framework + anatomy prototype built for interactive 3D learning in healthcare. 
-- **Project Folder:** TODO (link to folder)
+- **Project Folder:** [Systems Simulation](./SystemsSimulation/)
 - **Highlights:** _MR interaction design, 3D model manipulation, reusable architecture, HoloLens deployment_
 
 ---
