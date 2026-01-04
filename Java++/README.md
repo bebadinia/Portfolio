@@ -65,10 +65,10 @@ This generates (in `src/`):
 
 ### Running STM
 1. Open command prompt/terminal and navigate to the same project src directory.
-2. *Optional:* Build STM (skip if you are using `STM.exe`) .
+2. *Optional:* Build STM (skip if you are using `STM.exe`).
 3. Run the compiler (`STM.exe`), then when prompted ```'Source filename?'``` , enter the same base filename you compiled (no extension).
 
-	Example: for P1.stm, type ```P1```
+	Example: For P1.stm, type ```P1```.
 
 STM reads _P1.stm_, produces _P1.log_, and executes the program.
 

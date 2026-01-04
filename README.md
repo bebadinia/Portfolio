@@ -20,14 +20,14 @@ Desktop application for jewelry pricing and inventory tracking with real-time ma
 ---
 
 ### 🔹 RFID Chat Room — Encrypted Web Chatroom (HTML / CSS / JavaScript / Node.js / AES-256 / RFID / NFC)
-Web-based chatroom secured with **AES-encrypted messaging** and **RFID/NFC tag–based access control** (scan tag → credentialed login).
+Web-based chatroom secured with AES-encrypted messaging and RFID/NFC tag–based access control (scan tag → credentialed login).
 - **Project Folder:** [RFID Chat Room](./RFIDChatroom/)
-- **Highlights:** _web sockets / real-time messaging, encryption, access control workflow_
+- **Highlights:** _web sockets / real-time messaging, AES-encryption, access control workflow, RFID/NFC_
 
 ---
 
 ### 🔹 Multi-threaded Chat Room — Server + GUI Client (Python / Tkinter)
-Multi-client chatroom with a **multi-threaded server** and **Tkinter GUI client** for parallel/asynchronous communication.
+Multi-client chatroom with a multi-threaded server and Tkinter GUI client for parallel/asynchronous communication.
 - **Project Folder:** [Multi-threaded Chat Room](./MultiThreadedChatroom/)
 - **Highlights:** _multi-threading, TCP sockets, GUI client, CLI configuration_
 

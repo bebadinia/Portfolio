@@ -80,7 +80,7 @@ MultiThreadedChatroom/
 
 ## Demo / Screenshots
 - **Client UI:** 
-  ![Chatroom client screenshot](docs/screenshots/SampleScreenShot.png)
+![Chatroom client screenshot](docs/screenshots/SampleScreenShot.png)
 
 - **Message Flow Diagram:**  
-  ![Message flow diagram](docs/documentation/message-flow-diagram.png)
+![Message flow diagram](docs/documentation/message-flow-diagram.png)

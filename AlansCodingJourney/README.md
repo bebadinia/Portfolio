@@ -31,7 +31,7 @@ This project implements *Alan’s Coding Journey*, a single-player educational s
 - Dedicated graphics card
 - 3 GB available storage
 - Internet connection (to install tools / clone repo)
-- Optional: graphics software for asset creation (e.g., Krita)
+- *Optional:* graphics software for asset creation (e.g., Krita)
 
 ---
 
@@ -56,8 +56,8 @@ AlansCodingJourney/
 
 ## Setup and Running
 1. Download or clone this repository.
-2. **Players:** install the game using the Windows installer (details in “Running the Game (Players)” below).
-3. **Developers:** open the project in GameMaker Studio 2 (details in “Running the Game (Developers)” below).
+2. **Players:** Install the game using the Windows installer (details in “Running the Game (Players)” below).
+3. **Developers:** Open the project in GameMaker Studio 2 (details in “Running the Game (Developers)” below).
 4. Play through the tutorial and complete levels to unlock new content.
 5. To exit the game, close the game window.
 
@@ -83,8 +83,8 @@ AlansCodingJourney/
 - **Level Select:** Pick an unlocked level; completed content unlocks the next level and trophies.
 - **Learning + Tips Panels:** Use the in-game tips/learning panels to read explanations during each section.
 - **Encounters:** Each level includes multiple encounters:
-	- ***Question phase:*** answer the programming question correctly to proceed
-	- ***Fight phase:*** defeat the enemy by jumping on it
+	- ***Question phase:*** Answer the programming question correctly to proceed.
+	- ***Fight phase:*** Defeat the enemy by jumping on it.
 - **Health (*Hearts*):** Incorrect answers or taking damage reduces hearts; reaching 0 triggers *Game Over*.
 - **Trophies:** View unlocked trophies from the trophies screen (tied to level completion).
 - **Level Progression Themes:**
@@ -109,16 +109,16 @@ AlansCodingJourney/
 
 ## Demo / Screenshots
 - **Start Screen:** 
-  ![Start Screen](docs/screenshots/StartScreen.png)
+![Start Screen](docs/screenshots/StartScreen.png)
 
 - **Level Select Screen:** 
-  ![Level Select Screen](docs/screenshots/LevelSelectScreen.png)
+![Level Select Screen](docs/screenshots/LevelSelectScreen.png)
 
 - **Question Encounter Screen:** 
-  ![Question Encounter Screen](docs/screenshots/Level1Section1Question1Screen.png)
+![Question Encounter Screen](docs/screenshots/Level1Section1Question1Screen.png)
 
 - **Trophies Screen:** 
-  ![Trophies Screen](docs/screenshots/TrophiesScreen.png)
+![Trophies Screen](docs/screenshots/TrophiesScreen.png)
 
 - **System Flowchart:**  
-  ![System Flowchart](docs/documentation/SystemFlowchart.png)
+![System Flowchart](docs/documentation/SystemFlowchart.png)

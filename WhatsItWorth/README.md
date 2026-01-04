@@ -20,7 +20,6 @@ This project implements *What’s It Worth?*, a Windows desktop application that
 - Windows 10/11
 - 4GB available storage
 - Display resolution: 1280x720 or higher
-- Keyboard + mouse
 - Internet connection
 - .NET Framework
 
@@ -30,7 +29,7 @@ This project implements *What’s It Worth?*, a Windows desktop application that
 - 4GB available storage
 - .NET Framework 4.8 Developer Pack
 - Internet connection
-- Optional: database viewing and management software (e.g., DB Browser)
+- *Optional:* database viewing and management software (e.g., DB Browser)
 
 ---
 
@@ -50,8 +49,8 @@ WhatsItWorth/
 
 ## Setup and Running
 1. Download or clone this repository.
-2. **Users:** download and run the application using the packaged zip (details in “Running the Application (Users)” below).
-3. **Developers:** open and run the solution in Visual Studio (details in “Running the Application (Developers)” below).
+2. **Users:** Download and run the application using the packaged zip (details in “Running the Application (Users)” below).
+3. **Developers:** Open and run the solution in Visual Studio (details in “Running the Application (Developers)” below).
 4. Use the seeded test account (optional) to explore the full feature set immediately..
 5.  To exit the application, close the application window.
 
@@ -99,16 +98,16 @@ WhatsItWorth/
 
 ## Demo / Screenshots
 - **Login Screen:** 
-   ![Login Screen](docs/screenshots/LoginInStart.png)
+![Login Screen](docs/screenshots/LoginInStart.png)
 
 - **Create Account Screen:** 
-  ![Create Account](docs/screenshots/CreateAccount.png)
+![Create Account](docs/screenshots/CreateAccount.png)
 
 - **Home Page:** 
-  ![Home Page](docs/screenshots/HomePage.png)
+![Home Page](docs/screenshots/HomePage.png)
 
 - **Add Item Screen:** 
-  ![Add Item](docs/screenshots/AddItemPage.png)
+![Add Item](docs/screenshots/AddItemPage.png)
 
-  - **View Item Screen:**  
-  ![View Item](docs/screenshots/ViewItem.png)
+- **View Item Screen:**  
+![View Item](docs/screenshots/ViewItem.png)

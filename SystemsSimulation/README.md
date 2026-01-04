@@ -32,8 +32,8 @@ This project implements *Systems Simulation*, a reusable mixed reality (MR) appl
 ## Project Layout
 SystemsSimulation/
 - `docs/`
-  - `Documentation/`
-  - `Screenshots/`
+  - `documentation/`
+  - `screenshots/`
 - `src/`
   - `HoloUWP/`
     - `Assets/`
@@ -67,16 +67,23 @@ SystemsSimulation/
 ## Demo / Screenshots
 
 - **Main Window:** 
-  ![MainWindow](docs/screenshots/MainWindow.png)
+
+  ![Main Window](docs/screenshots/MainWindow.png)
 
 - **Digestive System Model:** 
-  ![DigestiveSystemModel](docs/screenshots/DigestiveSystemModel.png)
+  
+  ![Digestive System Model](docs/screenshots/DigestiveSystemModel.png)
 
 - **Model with labels on and Model Controls Window:** 
-  ![ModelwithModelControlsWindow](docs/screenshots/ModelwithModelControlsWindow.png)
+  
+  ![Model with Model Controls Window](docs/screenshots/ModelwithModelControlsWindow.png)
 
 - **High Level System Diagram:** 
-  ![HighLevelSystemDiagram](docs/documentation/HighLevelSystemDiagram.png)
+  
+  
+  ![High Level System Diagram](docs/documentation/HighLevelSystemDiagram.png)
 
 - **System Flowchart:**  
+  
+  
   ![System Flowchart](docs/documentation/SystemFlowchart.png)

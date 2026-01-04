@@ -79,7 +79,6 @@ RFIDChatroom/
 > If authentication is successful, the server will create a session and automatically redirect you to the chatroom page (URL includes a session query parameter):
 - `http://localhost:3000/chat.html?session=<sessionId>`
 
-
 4. To simulate multiple users, open a second browser window (or an incognito window) and log in with a different tag:
    - `http://localhost:3000/login/tag2`
 
@@ -111,14 +110,14 @@ The project uses a SQLite database named rfid.db with a table:
 - rfid_tags(tag_id, password, username, encryption_key)
 
 To add/edit tags:
-1. Open rfid.db using a SQLite tool (ex: DB Browser for SQLite)
-2. Insert/update rows in rfid_tags
+1. Open rfid.db using a SQLite tool (ex: DB Browser for SQLite).
+2. Insert/update rows in rfid_tags.
 
 > For successful decryption between users, the participating clients must be using compatible encryption keys (depending on how you’ve populated encryption_key for each tag).
 
 ---
 
-## Hosting (Optional)
+## Hosting *(Optional)*
 To make the chatroom available over the internet, deploy this project to any Node.js host that supports:
 - WebSockets
 - Serving static files from `public/`
@@ -128,10 +127,10 @@ To make the chatroom available over the internet, deploy this project to any Nod
 
 ## Demo / Screenshots
 - **Login Screen:** 
-  ![Login Screen](docs/screenshots/ChatroomLoginScreen.jpg)
+![Login Screen](docs/screenshots/ChatroomLoginScreen.jpg)
 
 - **Chatroom Screen:** 
-  ![Chatroom Screen](docs/screenshots/ActiveChatroomScreen.jpg)
+![Chatroom Screen](docs/screenshots/ActiveChatroomScreen.jpg)
 
 - **Domain Model Diagram:**  
-  ![Domain Model Diagram](docs/documentation/DomainModel.png)
+![Domain Model Diagram](docs/documentation/DomainModel.png)
