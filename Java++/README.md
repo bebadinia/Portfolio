@@ -1,3 +1,5 @@
+  ![Java++ Logo](docs/documentation/Java++Logo.png)
+
 # Java++ (C / C++ / Java)
 
 This project implements *Java++*, a small teaching language inspired by C++ & Java, along with a C++ compiler that translates `.java++` source code into STM assembly (`.stm`). Programs can then be assembled and executed using the included *STM* (Simple Target Machine) assembler + simulator.
