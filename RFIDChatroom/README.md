@@ -1,3 +1,5 @@
+![RFID Chatroom Logo](docs/documentation/RFIDChatroomLogo.png)
+
 # RFID Chat Room (HTML / CSS / JavaScript / Node.js / AES-256 / RFID / NFC)
 
 This project is a secure web-based chatroom application that uses RFID/NFC tag–based access control and client-side AES message encryption. Users start from an RFID tag URL (e.g., `/login/tag1`). The server validates the tag against a SQLite database (`rfid.db`), verifies a password, then issues a session ID. After login, the client connects over WebSockets and messages are broadcast as encrypted payloads (encryption/decryption happens in the server using `CryptoJS`).

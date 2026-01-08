@@ -1,3 +1,5 @@
+  ![Alan's Coding Journey Logo](docs/documentation/ACJLogo.png)
+
 # Alan’s Coding Journey (GameMaker Studio 2 / GML / C)
 
 This project implements *Alan’s Coding Journey*, a single-player educational side-scrolling game that teaches beginner programming concepts in C through platforming encounters and coding questions. It consists of a *GameMaker Studio 2* project (`AlansCodingJourneyC.yyp`) with organized *Rooms*, *Objects*, *Sprites*, and *Fonts*, plus design documentation (Game Manual + Storyboard). The game is distributed as a Windows installer for players, or can be run from the GameMaker IDE for development.

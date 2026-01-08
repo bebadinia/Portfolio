@@ -1,3 +1,5 @@
+![What's It Worth? Logo](docs/documentation/WhatsItWorthLogo.png)
+
 # What's It Worth? (C# / WinForms / .NET / SQL)
 
 This project implements *What’s It Worth?*, a Windows desktop application that helps users calculate and track the market value of jewelry materials (precious metals + diamonds). The application supports account creation, item management, and price updates through an internet connection, while storing user data locally in a bundled SQLite database for instant deployment.
